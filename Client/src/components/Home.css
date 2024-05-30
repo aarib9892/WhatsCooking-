@@ -1,0 +1,47 @@
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-head{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+    /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    color: cadetblue;
+}
+.card{
+    color: transparent;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px -4px; 
+    overflow: hidden;
+    
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.content img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    transition: transform .5s ease;
+}
+.card:hover img{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.font-style{
+    font-family: cursive;
+    align-items: center;
+}

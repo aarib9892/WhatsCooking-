@@ -1,0 +1,62 @@
+*{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.instruct{
+    word-spacing: 5px;
+}
+.contents{
+    margin: 5% ;
+    padding-left: 4% ;
+    padding-right: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+    height: 60%;
+    background-color: #fff;
+    /* box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12); */
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+
+}
+.ingredients{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+.meal-icon{
+    image-rendering: crisp-edges;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+   
+}
+.mealIcon{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

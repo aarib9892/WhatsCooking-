@@ -1,0 +1,31 @@
+.parent{
+  
+    display: flex;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.content-admin{
+    display: flex;
+    padding: 20px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    box-shadow: 0 8px 8px -4px; 
+    overflow: hidden;
+    flex-direction: column;
+
+}
+.content-admin .input-box{
+    padding: 20px ;
+    
+
+}
+.btn{
+    border-radius: 5px;
+    color: crimson;
+    background-color: aliceblue;
+}
